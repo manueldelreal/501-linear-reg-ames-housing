@@ -38,7 +38,7 @@ app.layout = html.Div(children=[
                 html.Div('Large Neighborhood:'),
                 dcc.Input(id='LargeNeighborhood', value=0, type='number', min=0, max=1, step=1),
                 html.Div('Garage Area:'),
-                dcc.Input(id='GarageArea', value=500, type='number', min=100, max=2000, step=1)
+                dcc.Input(id='GarageArea', value=500, type='number', min=0, max=2000, step=1),
 
             ], className='four columns'),
             html.Div([
