@@ -88,7 +88,7 @@ def ames_lr_function(clicks, YearBuilt,Bathrooms,BedroomAbvGr,TotalSF,SingleFam,
         return "waiting for inputs"
     else:
         y = -1158329.5822 + 597.5647*YearBuilt + 12388.176*Bathrooms + -6790.7793*BedroomAbvGr + 43.6953*TotalSF+ 23371.5406*SingleFam+ -8242.1543*LargeNeighborhood+ 51.4906*GarageArea 
-        formatted_y = "${:,.2f}".format(y[0])
+        formatted_y = "${:,.2f}".format(y)
         return formatted_y
 
 
